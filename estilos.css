@@ -130,7 +130,7 @@ img{
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 0px;
-    font-size: 35px;
+    font-size: 20px;
     margin: 20px;
     padding-top: 60px;
    
@@ -399,7 +399,7 @@ ul ol {
    .iconos{ 
        width: 100px;
        height: 100px;
-       background-color:#a2d2a8;
+       
    }
    .imgLugar{
        display: flex;
