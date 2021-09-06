@@ -40,25 +40,31 @@ p {
     word-spacing: 5px;
 }
 
-ul li {
-    color:#7a7f7f ;
-}
+ul {
+    li {
+         color:#7a7f7f ;
+        }
+    }
 
-ol li {
-    color: #272727;
-}
+ol {
+    li {
+         color: #272727;
+        }
+    }
 
 a {
     
     text-align: left;
 }
 
-tr th {
-    color: #272727;
-    margin-top: 20px;
-    padding: 20px;
-    font-weight: 600;
-}
+tr {
+    th {
+         color: #272727;
+         margin-top: 20px;
+         padding: 20px;
+         font-weight: 600;
+        }
+    }
 
 ul {
     list-style-type: circle;
@@ -191,22 +197,31 @@ img{
     display: flex;
 }
 
-.menu li {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-}
+.menu {
+    li {
+             position: relative;
+             display: flex;
+             justify-content: space-between;
+        }
+    }
 
-.menu li a {
-    display: block;
-    padding: 15px 20px;
-    color: azure; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-}
-.menu li a:hover {
-    color: rgb(13, 13, 17);
-}
+.menu {
+        li{
+             a {
+                display: block;
+                padding: 15px 20px;
+                color: azure; 
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: none;
+                }
+            }
+        }
+
+.menu {
+         li a:hover {
+                    color: rgb(13, 13, 17);
+                     }
+      }
 
 /* HEADER PRINCIPAL - SUBMENU */
 
@@ -217,29 +232,38 @@ img{
     position: absolute;
     display: none;
 }
-.submenu li {
-    background-color: white;
-    border-bottom: 1px solid gray ;
+.submenu {
+            li {
+                background-color: white;
+                border-bottom: 1px solid gray ;
+                }
+            }
+
+.submenu {
+            li {
+                  a { 
+                        padding: 5px 10px; 
+                        font-size: 12px; 
+                        color: rgb(10, 12, 10);
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        text-decoration: none;
+                        width: 100%;
+                        background-color:#a2d2a8 ;
+                    }
+            }
+        }
+
+.menu {
+        li:hover .submenu {
+                            display: flex;
+                             flex-direction: column;
+                            }
 }
 
-.submenu li a { 
-    padding: 5px 10px; 
-    font-size: 12px; 
-    color: rgb(10, 12, 10);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    width: 100%;
-    background-color:#a2d2a8 ;
-}
-
-.menu li:hover .submenu {
-    display: flex;
-    flex-direction: column;
-}
-
-.submenu li:hover a {
-    background-color: bisque;
-    
+.submenu {
+            li:hover a {
+                        background-color: bisque;
+                        }
 }
 .submenu{
     position: absolute;
@@ -254,9 +278,6 @@ footer {
     color:whitesmoke;
     margin-top: 50px;
     padding: 20px;
-    
-}
-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -266,22 +287,33 @@ footer {
     list-style-type: none;
 }
 
-ul li a img {
-    width: 40px;
-    height: 40px;
+ul {
+    li{
+
+         a {
+            img {
+                 width: 40px;
+                 height: 40px;
+                }
+            }
+    }
 }
-footer nav {
-    transition-duration: 3s;
-    animation-timing-function: 2s ease-in;
-    animation-direction: alternate-reverse;
+
+footer {
+            nav {
+                transition-duration: 3s;
+                animation-timing-function: 2s ease-in;
+                animation-direction: alternate-reverse;
+            }
   
 }
-footer div {
-    transition-duration: 3s;
-    transition-property: all ;
-    animation-timing-function: 4s ease-out;
-    animation-direction: alternate-reverse;
-    
+footer {
+        div {
+            transition-duration: 3s;
+            transition-property: all ;
+            animation-timing-function: 4s ease-out;
+            animation-direction: alternate-reverse;
+        }
 }
 
 
@@ -309,11 +341,16 @@ footer div {
     font-size: 20px;
 
 }
-aside h3{
-    margin-bottom: 20px;
+aside {
+        h3{
+            margin-bottom: 20px;
+        }
 }
-ul ol {
-    color:#7a7f7f ;
+
+ul {
+    ol {
+        color:#7a7f7f ;
+        }
 }
 
 #sectionFlex {
@@ -323,8 +360,10 @@ ul ol {
     flex-wrap: wrap;
     
 }
-.card img{
-    width: 100%;
+.card {
+        img{
+            width: 100%;
+        }
 }
 .card-body{
     background-image: linear-gradient(to top,#f0f5f2, #d1d4d1 ); ;
@@ -439,9 +478,10 @@ ul ol {
    
        }
     .elemento4{
-        animation-duration: 3s;
-    animation-name: aparecer;
+                animation-duration: 3s;
+                animation-name: aparecer;
     }
+
     @keyframes aparecer{
         0%{
             opacity: 0;
@@ -450,8 +490,10 @@ ul ol {
             opacity: 1;
         }
     }
-    .imagenEvento img{
-        width: 100%;
+    .imagenEvento {
+                     img{
+                         width: 100%;
+                         }
     }
 
     /*GALERIA*/
@@ -471,9 +513,10 @@ ul ol {
       
       
     }
-    .seccionGaleria img{
-        width: 90%;
-        
+    .seccionGaleria {
+                    img{
+                        width: 90%;
+                    }
     }
     .seccionGaleria :hover{
         transform: scale(1.1);
@@ -501,12 +544,14 @@ ul ol {
 
     /*CONTACTO*/
 
-    section iframe{
-        width: 70%;
-        margin: 5%;
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
+    section {
+            iframe{
+                     width: 70%;
+                     margin: 5%;
+                     display:flex;
+                     flex-direction: row;
+                     justify-content: center;
+            }
     }
     
     
@@ -515,6 +560,7 @@ ul ol {
 
      .mainheader {
          width: 100%; 
+
           
      }
     
@@ -538,10 +584,12 @@ ul ol {
         display: block
         
     }
-     aside h3{
-         margin-bottom: 5px;
-         display: flex;
-         justify-content: space-around;
+     aside {
+            h3{
+                margin-bottom: 5px;
+                display: flex;
+                justify-content: space-around;
+            }
      }
     
      #cardSeccion{
@@ -551,9 +599,11 @@ ul ol {
          flex-direction: column;
          
      }
-     footer div{
-         padding-top: 10px;
-         margin: 5px;
+     footer {
+            div{
+                padding-top: 10px;
+                margin: 5px;
+            }
      }
      .videoEdicion{
          width: 100%;
@@ -569,8 +619,10 @@ ul ol {
     .mainHeader{
         width: 100%;
     }
-    nav ul{
-        flex-direction: row;
+    nav {
+            ul{
+                flex-direction: row;
+            }
     }
     .listaIconos{
         display: flex;
@@ -586,9 +638,9 @@ ul ol {
     }
     footer{
         flex-direction: column;
+        
     }
     
     
 }
-
 
