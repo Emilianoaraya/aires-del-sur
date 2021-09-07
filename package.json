@@ -1,0 +1,26 @@
+{
+  "name": "aires-del-sur-araya-emiliano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
+    "build-sass": "node-sass --include-path scss scss/index.scss css/estilos.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilianoaraya/aires-del-sur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilianoaraya/aires-del-sur/issues"
+  },
+  "homepage": "https://github.com/Emilianoaraya/aires-del-sur#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
