@@ -165,7 +165,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    background-image: url(imagenes/img.portada.jpg);
+    background-image: url(../imagenes/img.portada.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -315,7 +315,12 @@ footer {
             animation-direction: alternate-reverse;
         }
 }
+#footer li a img:hover{
+    transform: scale(1.2);
+    
+    
 
+}
 
 
 /* PÁGINA INDEX */
@@ -327,12 +332,7 @@ footer {
     letter-spacing: 3px;
    
 }
-#img {
-    background-image: url(/imagenes/campo.jpg.jpg);
-    padding: 30px;
-    height: 550px;
-    margin: 15px;
-}  
+
 
 
  aside { 
