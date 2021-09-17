@@ -14,14 +14,14 @@ body {
 
 h1 {
   display: block;
-  color: #191f1d;
+  color: #312d20;
   margin: 5px;
   padding: 20px;
   text-align: center;
   font-size: 45px;
   font-style: italic;
-  word-spacing: 12px;
-  letter-spacing: 4px;
+  word-spacing: 15px;
+  letter-spacing: 9px;
   transition-duration: 2s;
   animation-timing-function: 5s ease-in;
   animation-direction: alternate-reverse; }
@@ -58,6 +58,7 @@ h2 {
   font-weight: lighter;
   word-spacing: 5px;
   background-color: #a2d2a8;
+  border-radius: 20px 40px;
   transition: linear 2s;
   animation-duration: 2s;
   animation-name: aparecer; }
@@ -74,6 +75,7 @@ h3 {
   word-spacing: 5px;
   margin: 30px;
   background-color: #a2d2a8;
+  border-radius: 20px 40px;
   transition: linear 2s;
   transform: rotateY(30deg); }
 
@@ -204,13 +206,15 @@ footer {
   text-align: center;
   color: whitesmoke;
   margin-top: 50px;
-  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
 
 #footer {
   list-style-type: none; }
+
+ul {
+  padding-left: 0; }
 
 ul li a img {
   width: 40px;
@@ -311,7 +315,9 @@ ul ol {
 
 .iconos {
   width: 100px;
-  height: 100px; }
+  height: 100px;
+  background-color: whitesmoke;
+  border-radius: 20px 20px; }
 
 .imgLugar {
   display: flex;
@@ -400,6 +406,11 @@ img {
   justify-content: space-between; }
 
 /*CONTACTO*/
+.formularioContacto {
+  margin: 30px;
+  padding: 20px;
+  background-color: whitesmoke; }
+
 section iframe {
   width: 70%;
   margin: 5%;
@@ -455,3 +466,70 @@ section iframe {
     margin-left: 20px; }
   footer {
     flex-direction: column; } }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 650px;
+  background-image: url(../imagenes/img.portada.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.bg-dark {
+  position: fixed;
+  z-index: 30;
+  width: 100%;
+  background-color: transparent !important; }
+
+.navg {
+  margin: 30px 0;
+  word-spacing: 10px;
+  padding: 15px 20px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  position: inherit;
+  top: 500px;
+  display: flex;
+  justify-content: space-between; }
+
+.navg a {
+  color: azure; }
+
+.navg a:hover {
+  background-color: transparent; }
+
+.portada {
+  width: 100%; }
+
+.bg-dark {
+  position: relative;
+  display: flex;
+  justify-content: space-between; }
+
+.dropdown-menu {
+  background-color: transparent;
+  color: azure;
+  border: none;
+  padding-top: 0;
+  padding-left: 20px; }
+
+@media screen and (max-width: 576px) {
+  .bg-dark {
+    position: absolute; }
+  .container {
+    background-color: grey; } }
+
+.formulario {
+  display: flex;
+  justify-content: center; }
+
+.nav-link:hover {
+  display: inline-block;
+  color: #312d20; }
+
+.dropdown-item:hover {
+  display: inline-block;
+  color: #312d20; }
