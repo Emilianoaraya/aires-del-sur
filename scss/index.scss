@@ -568,7 +568,7 @@ ul {
     
 
     /*RESPONSIVE*/
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 575px) {
 
      .mainheader {
          width: 100%; 
@@ -624,9 +624,29 @@ ul {
          display: flex;
          flex-direction: row;
      }
-     
+     .logo{
+         margin-top: 100px;
+         margin-bottom: 210px;
+        
+     }
+    
   }
-@media screen and (min-width: 577px)and (max-width: 768px){
+
+  @media screen and (max-width:576px){
+    .bg-dark{
+        
+        position: absolute;
+       
+    
+       
+    }
+    .container{
+        background-color:grey;
+    }
+    
+}
+
+@media screen and (min-width: 576px)and (max-width: 767px){
 
     .mainHeader{
         width: 100%;
@@ -652,8 +672,36 @@ ul {
         flex-direction: column;
         
     }
+
+    .bg-dark{
+        
+        position: absolute !important;
+       
     
+       
+    }
+    .container{
+        background-color:grey;
+        max-width: 100%;
+    }
+    .logo{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
     
+}
+@media screen and (min-width: 768px)and (max-width: 991px){
+    .container{
+        background-color:grey;
+        max-width: 100%;
+    }
+    .logo{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .bg-dark{
+        
+        position: absolute !important;}
 }
 .header{
     display: flex;
@@ -721,18 +769,6 @@ ul {
     
 }
 
-@media screen and (max-width:576px){
-    .bg-dark{
-        
-        position: absolute;
-       
-    
-       
-    }
-    .container{
-        background-color:grey;
-    }
-}
     
 .formulario{
     display: flex;

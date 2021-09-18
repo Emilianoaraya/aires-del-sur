@@ -419,7 +419,7 @@ section iframe {
   justify-content: center; }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .mainheader {
     width: 100%; }
   .menu {
@@ -449,9 +449,18 @@ section iframe {
     width: 100%; }
   .elementoIframe2 {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row; }
+  .logo {
+    margin-top: 100px;
+    margin-bottom: 210px; } }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (max-width: 576px) {
+  .bg-dark {
+    position: absolute; }
+  .container {
+    background-color: grey; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .mainHeader {
     width: 100%; }
   nav ul {
@@ -465,7 +474,25 @@ section iframe {
   aside {
     margin-left: 20px; }
   footer {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .bg-dark {
+    position: absolute !important; }
+  .container {
+    background-color: grey;
+    max-width: 100%; }
+  .logo {
+    margin-top: 150px;
+    margin-bottom: 150px; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    background-color: grey;
+    max-width: 100%; }
+  .logo {
+    margin-top: 150px;
+    margin-bottom: 150px; }
+  .bg-dark {
+    position: absolute !important; } }
 
 .header {
   display: flex;
@@ -515,12 +542,6 @@ section iframe {
   border: none;
   padding-top: 0;
   padding-left: 20px; }
-
-@media screen and (max-width: 576px) {
-  .bg-dark {
-    position: absolute; }
-  .container {
-    background-color: grey; } }
 
 .formulario {
   display: flex;

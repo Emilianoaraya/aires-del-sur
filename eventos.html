@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body class="colorEvento">
@@ -53,29 +54,29 @@
           </div>  
       </header>
         <header> <!--INICIA SECCIÓN PRINCIPAL-->
-            <article class="elemento4">
+            <article  data-aos="fade-right" class="elemento4">
                 <h2>Nuestro salón de eventos</h2>
                 <p class="texto">Contamos con un salón de fiestas ideal para celebrar eventos sociales y corporativos de 110 a 240 personas sentadas, con dos pistas de baile y sector de recepción con barra tropical. Ofrecemos una organización integral y atención personalizada. El menú campestre, grill y asador circular son la mejor opción para un evento diurno. Dentro de las 2 ha de parque se encuentra localizado un sector para estacionamiento interno.
                     La estructura edilicia está pensada para la realización de eventos aún en condiciones de mal tiempo.
                 </p>
             </article>
             <div class="imagenEvento">
-               <img src="el-salon/el-salon1.jpg" alt="imagen-evento">
-               <img src="el-salon/el-salon2.jpg" alt="imagen-eventoParque">
-               <img src="el-salon/el-salon3.jpg" alt="imagen-eventoNocturno">
-               <img src="el-salon/el-salon4.jpg" alt="imagen-eventoNoche">
-               <img src="el-salon/el-salon5.jpg" alt="imagen-salonFiestas">
-               <img src="el-salon/el-salon6.jpg" alt="imagen-salonFiestas">
-               <img src="el-salon/el-salon7.jpg" alt="imagen-salonFiestas">
-               <img src="el-salon/el-salon8.jpg" alt="imagen-salonFiestas">
-               <img src="el-salon/el-salon9.jpg" alt="imagen-salonFiestas">
-               <img src="el-salon/el-salon10.jpg" alt="imagen-salonDia">
-               <img src="el-salon/el-salon11.jpg" alt="imagen-salonVajillas">
-               <img src="el-salon/el-salon12.jpg" alt="imagen-salonVajillas">
-               <img src="el-salon/el-salon13.jpg" alt="imagen-salonDia">
-               <img src="el-salon/el-salon14.jpg" alt="imagen-fiesta">
-               <img src="el-salon/el-salon15.jpg" alt="imagen-fiesta">
-               <img src="el-salon/el-salon16.jpg" alt="imagen-mesasSalon">
+               <img data-aos="zoom-in" src="el-salon/el-salon1.jpg" alt="imagen-evento">
+               <img data-aos="zoom-in" src="el-salon/el-salon2.jpg" alt="imagen-eventoParque">
+               <img data-aos="zoom-in" src="el-salon/el-salon3.jpg" alt="imagen-eventoNocturno">
+               <img data-aos="zoom-in" src="el-salon/el-salon4.jpg" alt="imagen-eventoNoche">
+               <img data-aos="zoom-in" src="el-salon/el-salon5.jpg" alt="imagen-salonFiestas">
+               <img data-aos="zoom-in" src="el-salon/el-salon6.jpg" alt="imagen-salonFiestas">
+               <img data-aos="zoom-in" src="el-salon/el-salon7.jpg" alt="imagen-salonFiestas">
+               <img data-aos="zoom-in" src="el-salon/el-salon8.jpg" alt="imagen-salonFiestas">
+               <img data-aos="zoom-in" src="el-salon/el-salon9.jpg" alt="imagen-salonFiestas">
+               <img data-aos="zoom-in" src="el-salon/el-salon10.jpg" alt="imagen-salonDia">
+               <img data-aos="zoom-in" src="el-salon/el-salon11.jpg" alt="imagen-salonVajillas">
+               <img data-aos="zoom-in" src="el-salon/el-salon12.jpg" alt="imagen-salonVajillas">
+               <img data-aos="zoom-in" src="el-salon/el-salon13.jpg" alt="imagen-salonDia">
+               <img data-aos="zoom-in" src="el-salon/el-salon14.jpg" alt="imagen-fiesta">
+               <img data-aos="zoom-in" src="el-salon/el-salon15.jpg" alt="imagen-fiesta">
+               <img data-aos="zoom-in" src="el-salon/el-salon16.jpg" alt="imagen-mesasSalon">
             </div>
             <div class="elementoIframe2">
                 <iframe class="elementoIframe2" width="727" height="409" src="https://www.youtube.com/embed/OX7hinwTqu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,7 +84,7 @@
         </header> <!--FIN SECCION PRINCIPAL-->
             <a href="index.html">Volver a Home</a>
             <footer> <!-- INICIO FOOTER -->
-                <nav>
+                <nav data-aos="fade-right">
                     <h4>Nuestras redes</h4>
                     <ul id="footer">
                         <li><a href="https://m.facebook.com/login/?locale=es_ES"> <img src="el-salon/facebook.png" alt=""></a></li>
@@ -91,16 +92,33 @@
                         <li><a href="https://twitter.com/?lang=es"> <img src="el-salon/gorjeo.png" alt=""></a></li>  
                     </ul>
                 </nav>  
-                <div> 
+                <div data-aos="zoom-out-up"> 
                     <h4>Ubicación</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
                     <p>Colón 124 - Cañuelas-Buenos aires</p>
                 </div>
-                <div> 
+                <div data-aos="fade-left"> 
                     <h4>Contacto</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
                     <p>Email:Contacto@contacto.com</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
                     <p>Teléfono:4444-4444</p>
                 </div>   
             </footer> <!-- FIN FOOTER -->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+         AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+        </script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
