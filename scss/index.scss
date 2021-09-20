@@ -616,10 +616,10 @@ ul {
                 padding-top: 10px;
                 margin: 5px;
             }
-     }
+     } 
      .videoEdicion{
          width: 100%;
-     }
+     } 
      .elementoIframe2{
          display: flex;
          flex-direction: row;
@@ -633,11 +633,8 @@ ul {
      .bg-dark{
          position: absolute !important;
      }
-   table{
-       display: block;
-       overflow-x: auto;
-   }
-  }
+     
+    }
 
   @media screen and (max-width:576px){
     .bg-dark{

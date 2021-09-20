@@ -454,10 +454,7 @@ section iframe {
     margin-top: 100px;
     margin-bottom: 210px; }
   .bg-dark {
-    position: absolute !important; }
-  table {
-    display: block;
-    overflow-x: auto; } }
+    position: absolute !important; } }
 
 @media screen and (max-width: 576px) {
   .bg-dark {
