@@ -420,7 +420,7 @@ section iframe {
 
 /*RESPONSIVE*/
 @media screen and (max-width: 575px) {
-  .mainheader {
+  .header {
     width: 100%; }
   .menu {
     flex-direction: column;
@@ -452,7 +452,12 @@ section iframe {
     flex-direction: row; }
   .logo {
     margin-top: 100px;
-    margin-bottom: 210px; } }
+    margin-bottom: 210px; }
+  .bg-dark {
+    position: absolute !important; }
+  table {
+    display: block;
+    overflow-x: auto; } }
 
 @media screen and (max-width: 576px) {
   .bg-dark {
@@ -461,7 +466,7 @@ section iframe {
     background-color: grey; } }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .mainHeader {
+  .header {
     width: 100%; }
   nav ul {
     flex-direction: row; }

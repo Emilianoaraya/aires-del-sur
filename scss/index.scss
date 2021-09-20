@@ -570,7 +570,7 @@ ul {
     /*RESPONSIVE*/
   @media screen and (max-width: 575px) {
 
-     .mainheader {
+     .header {
          width: 100%; 
 
           
@@ -629,7 +629,14 @@ ul {
          margin-bottom: 210px;
         
      }
-    
+
+     .bg-dark{
+         position: absolute !important;
+     }
+   table{
+       display: block;
+       overflow-x: auto;
+   }
   }
 
   @media screen and (max-width:576px){
@@ -648,7 +655,7 @@ ul {
 
 @media screen and (min-width: 576px)and (max-width: 767px){
 
-    .mainHeader{
+    .header{
         width: 100%;
     }
     nav {
@@ -701,7 +708,8 @@ ul {
     }
     .bg-dark{
         
-        position: absolute !important;}
+        position: absolute !important;
+}
 }
 .header{
     display: flex;
@@ -779,7 +787,8 @@ ul {
     color: #312d20;
     
 }
-.dropdown-item:hover{
+.dropdown-item:hover
+{
     display: inline-block;
     color:#312d20 ;
 }
