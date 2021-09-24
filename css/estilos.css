@@ -59,13 +59,14 @@ h5 {
   animation-name: aparecer; }
 
 p {
-  color: #7a7f7f;
+  color: #5b5d5d;
   text-align: center;
   font-size: 14px;
+  font-style: italic;
   word-spacing: 5px; }
 
 ul li {
-  color: #7a7f7f; }
+  color: #5b5d5d; }
 
 a {
   text-align: left; }
@@ -84,7 +85,7 @@ img {
   font-style: italic;
   font-size: 20px;
   margin: 20px;
-  padding-top: 60px; }
+  padding-top: 40px; }
 
 .elementoGrid {
   width: auto;
@@ -234,7 +235,8 @@ aside h3 {
 .listaIconos {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin: 40px; }
 
 .iconos {
   width: 100px;
@@ -250,6 +252,10 @@ aside h3 {
   width: 80%;
   height: 80%;
   border-radius: 20px; }
+
+tbody {
+  font-style: italic;
+  font-size: 15px; }
 
 /*SERVICIOS*/
 .seccionServicio {
@@ -366,10 +372,12 @@ section iframe {
     display: flex;
     flex-direction: row; }
   .logo {
-    margin-top: 100px;
-    margin-bottom: 210px; }
+    margin-top: 3rem;
+    width: 75%; }
   .bg-dark {
-    position: absolute !important; } }
+    position: absolute; }
+  .error404 {
+    width: 50%; } }
 
 @media screen and (max-width: 575px) {
   .bg-dark {
@@ -393,20 +401,20 @@ section iframe {
   footer {
     flex-direction: column; }
   .bg-dark {
-    position: absolute !important; }
+    position: absolute; }
   .container {
     background-color: #807a7a;
     max-width: 100%; }
   .logo {
-    margin-top: 150px;
-    margin-bottom: 150px; } }
+    margin-top: 3rem;
+    width: 50%; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .container {
     background-color: #807a7a;
     max-width: 100%; }
   .logo {
-    margin-top: 150px;
-    margin-bottom: 150px; }
+    margin-top: 3rem;
+    width: 40%; }
   .bg-dark {
     position: absolute !important; } }

@@ -65,6 +65,7 @@ p {
         color: $cparrafo;
         text-align: center;
         font-size: 14px;
+        font-style: italic;
         word-spacing: 5px;
 }
 
@@ -97,7 +98,7 @@ img{
         font-style: italic;
         font-size: 20px;
         margin: 20px;
-        padding-top: 60px;
+        padding-top: 40px;
 }
 
 .elementoGrid{
@@ -294,6 +295,7 @@ aside {
 .listaIconos{
         @include flexDos;
         justify-content: space-evenly;
+        margin: 40px;
 }
 
 .iconos{ 
@@ -312,6 +314,10 @@ aside {
             height: $alto - 20;
             border-radius: 20px;
         }
+}
+tbody{
+        font-style: italic;
+        font-size: 15px;
 }
 
     /*SERVICIOS*/
@@ -474,14 +480,16 @@ section {
          @include flexDos;
      }
      .logo{
-         margin-top: $anchopix;
-         margin-bottom: $anchopix * 2 + 10;
+         margin-top: 3rem;
+         width: $ancho - 25;
      }
 
      .bg-dark{
-         position: absolute !important;
+         position: absolute;
      }
-     
+     .error404{
+        width: 50%;
+     }
 }
 
   @media screen and (max-width:575px){
@@ -492,6 +500,7 @@ section {
     .container{
         background-color: $ccontainer;
     }
+   
     
 }
 
@@ -506,7 +515,7 @@ section {
             }
     }
     .listaIconos{
-       @include flexDos;
+        @include flexDos;
         justify-content: space-evenly;
     }
     .element1{
@@ -519,15 +528,15 @@ section {
         flex-direction: column;   
     }
     .bg-dark{
-         position: absolute !important;   
+         position: absolute;   
     }
     .container{
         background-color: $ccontainer;
         max-width: $ancho;
     }
     .logo{
-        margin-top: $anchopix + 50;
-        margin-bottom: $anchopix + 50;
+        margin-top: 3rem;
+        width: $ancho - 50;
     }  
 }
 
@@ -537,8 +546,8 @@ section {
         max-width: $ancho;
     }
     .logo{
-        margin-top: $anchopix + 50;
-        margin-bottom: $anchopix + 50;
+        margin-top:3rem;
+        width: $ancho - 60;
     }
     .bg-dark{
         
@@ -547,6 +556,3 @@ section {
 }
 
 
-
-    
-    
